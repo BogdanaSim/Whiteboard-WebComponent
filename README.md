@@ -7,7 +7,7 @@ The Whiteboard Web Component is a component that allows users to draw, erase, up
 - **Erasing/Reseting:** Erase parts of the drawing using an eraser tool or reset the whole canvas.
 - **Image upload:** Import images to the canvas for annotation, reference or to continue the progress.
 - **Undo/Redo:** Perform undo and redo operations to revert or reapply changes made to the canvas.
-- **Export:** Export the canvas as JPEG or PNG for saving or sharing purposes.
+- **Export:** Save the canvas as JPEG or PNG for saving or sharing purposes.
 
 ## Implementation Details
 The Whiteboard Component is implemented as a custom HTML element (`<whiteboard-component>`) using JavaScript's Web Components API. It consists of HTML, CSS, and JavaScript code encapsulated within a single file.
@@ -16,12 +16,12 @@ The Whiteboard Component is implemented as a custom HTML element (`<whiteboard-c
 The component's HTML structure includes a canvas element for drawing, various control buttons for interacting with the canvas, and an input element for uploading images.
 
 ### CSS Styling
-CSS styles are applied to customize the appearance of the whiteboard and its controls, providing a visually appealing user interface.
+CSS styles are applied to customize the appearance of the whiteboard and its controls, providing a simple user interface.
 
 ### JavaScript Functionality
 The JavaScript code defines the behavior of the whiteboard component, including drawing, erasing, uploading images, undoing, redoing, and exporting functionalities. Event listeners are used to handle user interactions and update the canvas accordingly.
 
-## Usage
+## Setup
 To use the Whiteboard Component in your web application, follow these steps:
 1. Include the `whiteboard.js` file in your project.
 2. Use the `<whiteboard-component>` HTML tag wherever you want to embed the whiteboard.
